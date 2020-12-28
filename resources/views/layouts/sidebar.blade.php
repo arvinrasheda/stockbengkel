@@ -26,6 +26,7 @@
         <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="{{ (request()->is('/')) ? 'active' : '' }}"><a href="{{ route('dashboard') }}"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+            <li class="{{ (request()->is('/product')) ? 'active' : '' }}"><a href="{{ route('dashboard') }}"><i class="fa fa-barcode"></i> <span>Product</span></a></li>
 {{--            <li class="header">LABELS</li>--}}
 {{--            <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>--}}
 {{--            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>--}}
